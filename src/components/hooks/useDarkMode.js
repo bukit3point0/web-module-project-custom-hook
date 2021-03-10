@@ -5,7 +5,7 @@ import useLocalStorage from './useLocalStorage'
 
 const useDarkMode = () => {
     const [coinData, setCoinData] = useState([]);
-    const [darkMode, setDarkMode] = useLocalStorage(false);
+    const [darkMode, setDarkMode] = useLocalStorage("dark mode");
 
     
 
